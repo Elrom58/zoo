@@ -1,12 +1,12 @@
 *,
 *:before,
-*::after  {
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body  {
+body {
   background-image: url(./images/animals.jpg);
   background-repeat: repeat;
   background-size: auto;
@@ -50,6 +50,7 @@ a.link {
   padding: 0px 100px;
   display: flex !important;
   justify-content: center !important;
+  z-index: 999;
 }
 
 /*
@@ -127,5 +128,3 @@ body:before {
 .wrapper {
   z-index: 999;
 }
-
-

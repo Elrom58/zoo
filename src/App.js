@@ -43,7 +43,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<AllAnimals animals={animals}/>}/>
-          <Route path="/:id" element={<SinglePost />}/>
+          <Route path="/:id" element={<Animal />}/>
         </Routes>
         </div>
         </div>
